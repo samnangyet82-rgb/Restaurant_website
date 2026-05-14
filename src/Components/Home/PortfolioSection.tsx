@@ -1,3 +1,5 @@
+import { GiNotebook } from "react-icons/gi";
+
 type Work = {
   image: string;
   title: string;
@@ -7,22 +9,22 @@ type Work = {
 export default function PortfolioSection() {
   const works: Work[] = [
     {
-      image: "/img/ui-design.jpg",
+      image: "/public/image/ui.png",
       title: "UI Design",
       desc: "In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.",
     },
     {
-      image: "/img/web-design.jpg",
+      image: "/public/image/Complete.jpg",
       title: "Web Design",
       desc: "In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.",
     },
     {
-      image: "/img/graphic-design.jpg",
+      image: "/public/image/ju_joy-ju-joy-3439913.jpg",
       title: "Graphic Design",
       desc: "In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.",
     },
     {
-      image: "/img/content-writing.jpg",
+      image: "/public/image/content-writing.jpg",
       title: "Content Writing",
       desc: "In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.",
     },
@@ -53,6 +55,7 @@ export default function PortfolioSection() {
 
               <div>
                 <h3 className="mb-5 text-[34px] font-extrabold leading-tight text-[#1f2a37]">
+                  <GiNotebook className="text-[#ff4b00]" />
                   {work.title}
                 </h3>
 
