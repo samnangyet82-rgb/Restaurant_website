@@ -3,6 +3,7 @@ import Hero from "./Components/Home/Hero";
 import HeroSection from "./Components/Home/HeroSection";
 import ExpertiseSection from "./Components/Home/ExpertiseSection";
 import QualificationSection from "./Components/Home/QualificationSection";
+import PortfolioSection from "./Components/Home/PortfolioSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <ExpertiseSection />
       <QualificationSection />
+      <PortfolioSection />
     </div>
   );
 }
