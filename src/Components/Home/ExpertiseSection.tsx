@@ -1,3 +1,5 @@
+import { MdCastForEducation } from "react-icons/md";
+
 type Skill = {
   name: string;
   value: number;
@@ -42,7 +44,8 @@ export default function ExpertiseSection() {
           Why Choose Me
         </p>
 
-        <h2 className="mb-20 text-[48px] font-extrabold leading-tight text-[#333333] md:text-[56px]">
+        <h2 className="mb-20 flex items-center gap-4 text-[48px] font-extrabold leading-tight text-[#333333] md:text-[56px]">
+          <MdCastForEducation className="shrink-0 text-[60px] text-[#ff4b00]" />
           My Expertise Area
         </h2>
 
