@@ -54,8 +54,8 @@ export default function HeroSection() {
   return (
     <main className="overflow-hidden">
       {/* Hero Top */}
-      <section className="relative bg-[#f7f7f7] pb-[140px]">
-        <div className="mx-auto grid min-h-[610px] max-w-[1180px] grid-cols-1 items-center px-6 pt-10 md:grid-cols-2 lg:px-0">
+      <section className="relative bg-[#f7f7f7] pb-35">
+        <div className="mx-auto grid min-h-152.5 max-w-295 grid-cols-1 items-center px-6 pt-10 md:grid-cols-2 lg:px-0">
           {/* Left Text */}
           <div className="z-10 pt-10">
             <p className="mb-3 text-[30px] font-medium tracking-[0.08em] text-[#2b2f33]">
@@ -70,7 +70,7 @@ export default function HeroSection() {
               Aliquet nibh praesent
             </h2>
 
-            <p className="mb-8 max-w-[560px] text-[18px] font-medium leading-[1.6] tracking-wide text-[#2b2f33]">
+            <p className="mb-8 max-w-140 text-[18px] font-medium leading-[1.6] tracking-wide text-[#2b2f33]">
               Ut sem viverra aliquet eget sit amet tellus. Nunc sed velit
               dignissim sodales ut eu sem. In tellus integer feugiat scelerisque
               varius morbi enim nunc faucibus.
@@ -105,13 +105,13 @@ export default function HeroSection() {
       </section>
 
       {/* Orange Section */}
-      <section className="relative bg-gradient-to-br from-[#ff6a1a] via-[#ff5200] to-[#ee3f00] pt-[150px] pb-24">
+      <section className="relative bg-linear-to-br from-[#ff6a1a] via-[#ff5200] to-[#ee3f00] pt-37.5 pb-24">
         {/* Floating Info Box */}
-        <div className="absolute left-1/2 top-[-105px] z-20 w-[calc(100%-40px)] max-w-[1060px] -translate-x-1/2 rounded-[70px] bg-white px-10 py-10 shadow-[0_18px_50px_rgba(0,0,0,0.18)] md:px-16">
+        <div className="absolute left-1/2 -top-26.25 z-20 w-[calc(100%-40px)] max-w-265 -translate-x-1/2 rounded-[70px] bg-white px-10 py-10 shadow-[0_18px_50px_rgba(0,0,0,0.18)] md:px-16">
           <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
             {infoCards.map((item, index) => (
               <div key={index} className="flex items-center gap-6">
-                <div className="flex h-[58px] w-[58px] shrink-0 items-center justify-center rounded-full bg-[#ff4500] text-white">
+                <div className="flex h-14.5 w-14.5 shrink-0 items-center justify-center rounded-full bg-[#ff4500] text-white">
                   {item.icon}
                 </div>
 
@@ -132,24 +132,24 @@ export default function HeroSection() {
         {/* Background Decoration */}
         <div className="pointer-events-none absolute inset-0 opacity-10">
           <div className="absolute right-24 top-20 h-64 w-96 rotate-12 rounded-3xl border border-white" />
-          <div className="absolute left-36 top-40 h-56 w-56 rounded-full border-[10px] border-white" />
+          <div className="absolute left-36 top-40 h-56 w-56 rounded-full border-10 border-white" />
         </div>
 
         {/* About Content */}
-        <div className="relative mx-auto grid max-w-[1180px] grid-cols-1 items-center gap-12 px-6 pt-10 text-white md:grid-cols-2 lg:px-0">
+        <div className="relative mx-auto grid max-w-295 grid-cols-1 items-center gap-12 px-6 pt-10 text-white md:grid-cols-2 lg:px-0">
           {/* Left Image - Smaller Normal Size */}
           <div className="flex justify-center md:justify-start">
-            <div className="relative h-[340px] w-[340px] overflow-hidden rounded-full border-[6px] border-white bg-white shadow-xl md:h-[400px] md:w-[400px]">
+            <div className="relative h-85 w-85 overflow-hidden rounded-full border-[6px] border-white bg-white shadow-xl md:h-100 md:w-100">
               <img
                 src="/img/about-person.png"
                 alt="About Person"
-                className="absolute bottom-0 left-1/2 h-[390px] w-auto -translate-x-1/2 object-contain md:h-[460px]"
+                className="absolute bottom-0 left-1/2 h-97.5 w-auto -translate-x-1/2 object-contain md:h-115"
               />
             </div>
           </div>
 
           {/* Right Text */}
-          <div className="max-w-[620px]">
+          <div className="max-w-155">
             <p className="mb-4 text-[28px] font-bold tracking-[0.08em]">
               My Intro
             </p>
@@ -166,7 +166,7 @@ export default function HeroSection() {
 
             <div className="space-y-5">
               <div className="flex items-center gap-5">
-                <div className="flex h-[54px] w-[54px] items-center justify-center rounded-full bg-[#ff4500] text-white">
+                <div className="flex h-13.5 w-13.5 items-center justify-center rounded-full bg-[#ff4500] text-white">
                   <svg
                     className="h-6 w-6"
                     viewBox="0 0 24 24"
@@ -179,7 +179,7 @@ export default function HeroSection() {
               </div>
 
               <div className="flex items-center gap-5">
-                <div className="flex h-[54px] w-[54px] items-center justify-center rounded-full bg-[#ff4500] text-white">
+                <div className="flex h-13.5 w-13.5 items-center justify-center rounded-full bg-[#ff4500] text-white">
                   <svg
                     className="h-6 w-6"
                     viewBox="0 0 24 24"
@@ -194,7 +194,7 @@ export default function HeroSection() {
               </div>
 
               <div className="flex items-center gap-5">
-                <div className="flex h-[54px] w-[54px] items-center justify-center rounded-full bg-[#ff4500] text-white">
+                <div className="flex h-13.5 w-13.5 items-center justify-center rounded-full bg-[#ff4500] text-white">
                   <svg
                     className="h-6 w-6"
                     viewBox="0 0 24 24"
