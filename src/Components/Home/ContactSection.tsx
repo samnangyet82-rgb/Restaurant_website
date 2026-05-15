@@ -3,13 +3,13 @@ export default function ContactSection() {
     <section className="relative flex min-h-107.5 items-center justify-center overflow-hidden bg-orange-600 px-4 py-20">
       {/* Background Image */}
       <img
-        src="/img/contact-bg.jpg"
+        src="/image/xresch.jpg"
         alt="Contact background"
         className="absolute inset-0 h-full w-full object-cover"
       />
 
       {/* Orange Overlay */}
-      <div className="absolute inset-0 bg-orange-600/85" />
+      <div className="absolute inset-0 " />
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl text-center text-white">
