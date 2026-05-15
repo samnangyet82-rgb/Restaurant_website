@@ -9,22 +9,22 @@ type Work = {
 export default function PortfolioSection() {
   const works: Work[] = [
     {
-      image: "public/image/ui.png",
+      image: "/image/ui.png",
       title: "UI Design",
       desc: "In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.",
     },
     {
-      image: "public/image/Complete.jpg",
+      image: "/image/Complete.jpg",
       title: "Web Design",
       desc: "In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.",
     },
     {
-      image: "public/image/ju_joy-ju-joy-3439913.jpg",
+      image: "/image/ju_joy-ju-joy-3439913.jpg",
       title: "Graphic Design",
       desc: "In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.",
     },
     {
-      image: "public/image/arih.jpg",
+      image: "/image/arih.jpg",
       title: "Content Writing",
       desc: "In tellus integer feugiat scelerisque varius morbi enim nunc faucibus.",
     },
